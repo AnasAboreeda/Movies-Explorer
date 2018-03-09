@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #3d4348;
+  font-size: 14px;
+  min-height: 100vh;
+  background: #edeef0;
+}
+
+* {
+  font-family: 'MTG Sans', Helvetica, Arial, sans-serif;
+  letter-spacing: 0rem;
+  outline: none;
+  -webkit-focus-ring-color: none;
+  border-radius: 0;
+  font-weight: 300;
+  box-sizing: border-box;
+}
+
+.lightGrey {
+  background: #edeef0;
+}

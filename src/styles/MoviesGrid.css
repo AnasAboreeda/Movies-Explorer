@@ -1,0 +1,24 @@
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.movies-grid-title {
+  width: 100%;
+  margin: 35px 0 0.8em;
+  text-align: center;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -.01em;
+  font-weight: 400;
+  color: #212d33;
+}
+
+@media screen and (max-width: 900px) {
+  .movies-grid-title {
+    margin: 25px 0 0.6em;
+    font-size: 22px;
+    line-height: 25px;
+  }
+}

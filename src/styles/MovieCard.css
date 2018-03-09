@@ -1,0 +1,48 @@
+.movie-card {
+  max-width: 50%;
+  padding: .5em;
+  flex: 0 1 25%;
+  cursor: pointer;
+}
+
+.movie-card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.movie-card .badge {
+  font-family: Impact, HelveticaNeue-CondensedBold, sans-serif;
+  color: #000;
+  text-shadow: 0 0 .15em #fff;
+  max-height: 1.5em;
+  display: flex;
+  align-items: center;
+  padding: .25em .35em;
+  border-radius: .15em;
+  background: radial-gradient(#ffffb8, #ce981d);
+}
+
+.movie-card .movie-title-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: .3em;
+}
+
+.movie-card .movie-title {
+  font-size: 1.4em;
+  text-shadow: 0 0 .15em #fff;
+}
+
+@media screen and (max-width: 900px) {
+  .movie-card {
+    flex: 0 1 50%;
+    padding: 0.5em;
+  }
+  .movie-card .movie-title {
+    font-size: 1.2em;
+  }
+  .movie-card .badge {
+    padding: .1em .15em;
+    font-size: .8em;
+  }
+}
