@@ -14,8 +14,8 @@
   font-family: HelveticaNeue-CondensedBold, sans-serif;
   color: #000;
   text-shadow: 0 0 .15em #fff;
-  max-height: 1.5em;
   display: flex;
+  text-align: center;
   align-items: center;
   padding: .25em .35em;
   border-radius: .15em;
